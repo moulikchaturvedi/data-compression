@@ -13,3 +13,5 @@ def rle():
 
 if __name__ == "__main__":
     rle()
+
+    # message = input("Enter the message you want to code:")
