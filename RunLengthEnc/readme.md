@@ -1,5 +1,8 @@
 # Run Length Encoding
-[*] Binary Encoding
-[*] Counting Zeroes and Ones
-[] counting stacks of zeros and ones
-[] representing final coded string
+Fixed length encoding algorithm.
+
+### To Do:
+- [x] Binary Encoding
+- [x] Counting Zeroes and Ones
+- [ ] counting stacks of zeros and ones seperately
+- [ ] representing final coded string
