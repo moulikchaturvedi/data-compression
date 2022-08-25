@@ -1,8 +1,14 @@
-#code to convert any message to binary format
+#code to convert any message to binary format in context for 4 bit binary RLE
 
 def to_binary(message):
     binary = ''
-    while message > 0:
+    binary15 = '1111'
+
+    if int(message) >= 15:
+        message = message - 15
+        binary = binary15 + to_binary(message)
+
+    while int(message) > 0:
         binary = str(message % 2) + binary
         message = message // 2
 

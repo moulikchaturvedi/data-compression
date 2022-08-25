@@ -1,5 +1,5 @@
 # Run Length Encoding
-Fixed length encoding algorithm.
+Fixed length encoding algorithm. *_This is a 4-bit implementation_*
 
 ### To Do:
 - [x] Binary Encoding
